@@ -1,0 +1,82 @@
+
+
+
+.knockout {
+    background: url(https://images.unsplash.com/photo-1513112300738-bbb13af7028e?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80) 100px 80px;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: arial, helvetica;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    opacity: .6;
+    /* -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color:#7200ff; */
+    
+  } .knockout { font-size: 70px;}
+  @media only screen and (max-width: 2200px) {
+    .knockout { font-size: 70px; }
+  }
+  @media only screen and (max-width: 800px) {
+    .knockout { font-size: 60px; }
+  }
+  @media only screen and (max-width: 700px) {
+    .knockout { font-size: 50px; }
+  }
+
+
+  .dropbtn {
+    background-color: transparent;
+    font-family: sans-serif;
+    color:lightslategrey;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.dropdown {
+  
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 110px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: sans-serif;
+    color: lightslategrey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {border: 1px groove white;
+border-radius: 8px;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+
+
+.dropbtn { font-size: 50px; color: white; }
+@media only screen and (max-width: 2200px) {
+  .dropbtn { font-size: 30px; color: lightslategray; }
+}
+@media only screen and (max-width: 800px) {
+  .dropbtn { font-size: 22px; color: lightslategray; }
+}
+@media only screen and (max-width: 700px) {
+  .dropbtn { font-size: 17px; color: lightslategray; }
+}
+p{
+  text-align: right;
+}
